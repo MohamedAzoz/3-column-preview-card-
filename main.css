@@ -15,25 +15,25 @@ body{
     background-color: hsl(0, 0%, 95%);
 }
 main{
-    max-width: 850px;
-    height: 600px;
+    max-width: 900px;
+    height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .section{
     width: calc(100%/3);
-    min-height: 60vb;
     padding: 2rem;
 }
 img{
+    margin-top: 1rem;
     width: 60px;
 }
 h1{
     font-family: "Big Shoulders", sans-serif;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding: 1rem 0 0 0;
 }
@@ -86,17 +86,24 @@ button{
         align-items: center;
         flex-direction: column;
     }
+    img{
+        margin-top: 0;
+    }
     h1,p,button,img{
         margin-left: 1.4rem;
+    }
+    h1{
+        margin-top: 1rem;
+        margin-bottom: 1.2rem;
     }
     p{
         width: 80%;
         font-size: 1.3rem;
+        padding:0;
     }
     .section{
         width: 92%;
-        padding: 1rem 2rem 0;
-        /* min-height: 50vb; */
+        padding:  2.5rem;
     }
     .color1{
         border-top-right-radius:15px ;
