@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vb;
+    height: 100vb;
     background-color: hsl(0, 0%, 95%);
 }
 main{
@@ -38,9 +38,9 @@ h1{
     padding: 1rem 0 0 0;
 }
 p{
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 2rem 0 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.4;
     text-indent: 5px;
@@ -97,7 +97,7 @@ button{
         margin-bottom: 1.2rem;
     }
     p{
-        width: 80%;
+        /* width: 80%; */
         font-size: 1.3rem;
         padding:0;
     }
@@ -115,7 +115,7 @@ button{
         border-bottom-left-radius:15px ;
     }
     button{
-        width: 40%;
+        width: 150px;
     }
    
 }
